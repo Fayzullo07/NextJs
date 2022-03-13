@@ -1,11 +1,11 @@
 import 'tailwindcss/tailwind.css';
-import '../styles/globals.scss';
 import { Layout } from '../components';
+import '../styles/globals.scss';
 
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
-       <Component {...pageProps} />
+      <Component {...pageProps} />
     </Layout>
   )
 }

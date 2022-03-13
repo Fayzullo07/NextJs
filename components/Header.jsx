@@ -19,7 +19,7 @@ function Header() {
                 </div>
                 <div className='hidden md:float-left md:contents'>
                     {categories.map( cotegory => (
-                        <Link key={category.slug} href={`/cotegory/${cotegory.slug}`}>
+                        <Link key={cotegory.slug} href={`/cotegory/${cotegory.slug}`}>
                             <span className='md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer'>
                                 {cotegory.name}
                             </span>
